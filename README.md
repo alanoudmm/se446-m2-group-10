@@ -35,3 +35,15 @@ This project analyzes the Chicago Crimes dataset using  Apache Spark. IN milesto
 
 
 ---
+
+###  Task 2: Location Hotspots
+
+| Rank | Location    | MapReduce (M1) | Spark (M2) 
+| ---- | ----------- | -------------- | ---------- 
+| 1    | STREET      | 2737           | 2737       
+| 2    | APARTMENT   | 1909           | 1909       
+| 3    | RESIDENCE   | 1358           | 1358       
+| 4    | SIDEWALK    | 536            | 536        
+| 5    | PARKING LOT | 362            | 362        
+
+---
