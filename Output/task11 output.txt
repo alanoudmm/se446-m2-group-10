@@ -1,0 +1,23 @@
+Spark Session Started
+Total Rows: 10000
+Feature Engineering Done
+Training Model...
+Training Time: 34.35204815864563 seconds
+
+===== MODEL METRICS =====
+AUC-ROC: 0.7526007592077572
+Accuracy: 0.8964081207704321
+F1 Score: 0.8674868332850887
+Precision: 0.8913968074285104
+Recall: 0.8964081207704321
+
+===== CONFUSION MATRIX =====
++-----+----------+-----+
+|label|prediction|count|
++-----+----------+-----+
+|    1|       0.0|  190|
+|    0|       0.0| 1673|
+|    1|       1.0|   49|
+|    0|       1.0|    9|
++-----+----------+-----+
+
