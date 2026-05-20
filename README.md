@@ -47,3 +47,40 @@ This project analyzes the Chicago Crimes dataset using  Apache Spark. IN milesto
 | 5    | PARKING LOT | 362            | 362        
 
 ---
+### Task 3: Crime Trend Over Years
+
+|Year|MapReduce (M1)|Spark (M2)|
+|-|-|-|
+|2001|4|4|
+|2005|19|19|
+|2010|5|5|
+|2015|28|28|
+|2017|49|49|
+
+
+
+---
+
+### Task 4: Arrest Rate Analysis
+
+**Arrest rate in M1**
+false 8717
+true  1283
+
+|Metric|MapReduce (M1)|Spark (M2)|
+|-|-|-|
+|Arrest Rate|\~0.1283|0.1283|
+
+Arrest rate is \~12.83% in both implementations.
+
+---
+
+## Performance Comparison
+
+|Feature|MapReduce|Spark|
+|-|-|-|
+|Speed|Slow|Fast|
+
+**Conclusion:** Spark is faster, simpler, and more powerful.
+
+---
