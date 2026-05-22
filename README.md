@@ -85,7 +85,27 @@ Arrest rate is \~12.83% in both implementations.
 
 ---
 
-\---
+## ML Results Summary
+
+### Best Model: Random Forest
+
+|Metric|Value|
+|-|-|
+|AUC-ROC|0.7526|
+|Accuracy|0.8964|
+|F1 Score|0.8675|
+|Precision|0.8914|
+|Recall|0.8964|
+
+---
+
+**Interpretation:**
+
+* Random Forest performed best due to handling non-linear patterns
+* `crime\\\_index` was the most important feature
+* Logistic Regression performed worse due to linear assumptions
+
+
 
 ## Deployment Evidence
 
